@@ -7,7 +7,4 @@ The real sales data have been used for decomposition and ARIMA modelling. This r
 
 From this project, I have learnt that decomposition of a time series data is very important for initiating the modelling process. Understanding the trend, seasonality and variations in the random term helps in selecting the right model for the data. As in this case, knowing that data is autocorrelated, non-stationary and seasonal helped in determining that ARIMA could be one of the suitable models for this type of data. And as the result suggests, it performed well with these causalities in the data by developing a model that addressed the issue of autocorrelation while taking into account the trend and seasonality of the model. auto.arima function of R helped us in analyzing various moving average and lag order for the model while selecting the best model that has lowest AIC, BIC, RMSE, MAPE and other model accuracy parameters. The model of order (0,1,1) (2,1,1) [12] had a MAE of 4241.32 suggesting that our forecast might have an error of 4241.32 million dollars in the retail sales. MAPE for our model is 1.02% which means that our forecasts are 98.8% accurate considering the low and high value of our confidence interval.
 
-
-REFERENCES
-1.	US  Census Bureau, Retail Trade and Food Services Sales: U.S. Total , 2019, Retrieved from: https://www.census.gov/econ/currentdata/dbsearch?program=MRTS&startYear=2010&endYear=2019&categories=44X72&dataType=SM&geoLevel=US&notAdjusted=1&submit=GET+DATA&releaseScheduleId=
-2.	Bureau of Labor Statistics, CPI-All Urban Consumers (Current Series), 2019, Retrieved from: https://data.bls.gov/pdq/SurveyOutputServlet
+Deeper analysis and visualizations are provided in the word document.
